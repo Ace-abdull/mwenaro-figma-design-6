@@ -56,12 +56,13 @@ body {
 /* MAIN HEADING */
 .main-heading {
   font-size: 52px;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.2;
   margin-bottom: 20px;
 }
 /* TEXT PARAGRAPH */
 .text-paragraph {
+  font-size: 1.4rem;
   color: #666;
   line-height: 1.6;
   margin-bottom: 30px;
@@ -70,6 +71,8 @@ body {
 /* BUTTONS */
 /* FIRST CTA */
 .first-cta {
+  font-size: 1.1rem;
+  font-weight: 400;
   background: black;
   color: white;
   padding: 14px 28px;
@@ -110,6 +113,8 @@ body {
 
 /* SECOND CTA */
 .second-cta {
+  font-size: 1.1rem;
+  font-weight: 400;
   background: transparent;
   color: black;
   padding: 14px 28px;
@@ -124,7 +129,7 @@ body {
   display: flex;
   gap: 20px;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   border-radius: 16px;
   width: fit-content;
   background: #f7f7f7;
@@ -141,7 +146,9 @@ body {
 }
 
 .list-wrapper p {
-  font-size: 12px;
+  /* font-size: 1.1rem; */
+  /* font-weight: 600; */
+  /* text-align: right; */
   color: #555;
 }
 
